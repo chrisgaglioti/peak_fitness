@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Peak Fitness</title>
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <meta name="keywords" content="fitness, training, classes, contact, trainers">
+    <meta name="description" content="Contact Peak fitness to learn about all our training programs">
+</head>
+
+<body class="container">
+
+    <!-- header and nav section -->
+    <header>
+        <div class="primary_header">
+            <a href="index.html"><img src="images/Peak-Fitness-Logo.png" alt="Peak Fitness Logo"></a>
+        </div>
+        <nav class="secondary_header" id="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="training.html">TRAINING SESSIONS</a></li>
+                <li><a href="schedule.html">SCHEDULE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- main content and image section -->
+    <section class="left_article">
+        <h2 class="form_heading">Contact a member of our team:</h2>
+        <form class="form" name="contactform" method="post" action="contact.php">
+            <table>
+                <tr>
+                    <td>
+                        <label for="first_name">First Name *</label>
+                    </td>
+                    <td>
+                        <input type="text" id="first_name" name="first_name" maxlength="50" size="30" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="last_name">Last Name *</label>
+                    </td>
+                    <td>
+                        <input type="text" id="last_name" name="last_name" maxlength="50" size="30" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email Address *</label>
+                    </td>
+                    <td>
+                        <input type="text" id="email" name="email" maxlength="80" size="30" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telephone">Telephone Number</label>
+                    </td>
+                    <td>
+                        <input type="text" id="telephone" name="telephone" maxlength="30" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comments">Comments</label>
+                    </td>
+                    <td>
+                        <textarea id="comments" name="comments" maxlength="1000" cols="28" rows="6"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mailingList">Join our mailing list</label>
+                    </td>
+                    <td>
+                        <input id="mailingList" type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit" value="Submit">Submit</button>
+                        <button type="reset" value="Reset">Clear</button><br />
+                        <span style="font-size: small; font-style: italic;">* Required Fields</span>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <aside class="right_article">
+        <img src="images/team.jpg" alt="A group photo of team members" class="image1" />
+        <!-- https://www.dreamstime.com/stock-images-group-fitness-people-isolated-over-white-background-image35582584 -->
+        <img src="images/city_jogging.jpg" alt="Illustration of a group of people jogging" class="image1" />
+        <!-- https://www.dreamstime.com/stock-illustration-city-jogging-shows-get-fit-sprint-exercise-representing-healthy-image42201926 -->
+        <br /><br /><br /><br />
+    </aside>
+
+    
+    <!-- left and right column section -->
+    <section class="row blockDisplay">
+        <article class="column_half left_half">
+            <br /><br />
+            <h3>Our Address:</h3>
+            Peak Training<br /> 5790 Crowder Blvd.<br /> New Orleans, LA 70127<br /> Phone: (999) 123-4567<br /> Fax: (999) 123-8901<br />
+        </article>
+
+        <article class="column_half right_half">
+            <p>Our location:</p>
+            <section class="map>">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.3056155284294!2d-89.99622538439922!3d30.028088881888166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889e027bb8539a03%3A0xa99ad2fcc0ccbc51!2s5790+Crowder+Blvd%2C+New+Orleans%2C+LA+70127!5e0!3m2!1sen!2sus!4v1510876206149" style="border:0" allowfullscreen></iframe>
+            </section>
+        </article>
+    </section>
+
+    
+    <!-- social media section -->
+    <section class="social">
+        <p class="social_icon"><a href="https://www.facebook.com" target="_blank"><img src="images/facebook_icon_128.png" alt="Facebook Icon" class="thumbnail"/></a></p>
+        <p class="social_icon"><a href="https://www.twitter.com" target="_blank"><img src="images/twitter_icon_128.png" alt="" class="thumbnail"/></a></p>
+        <p class="social_icon"><a href="https://www.instagram.com" target="_blank"><img src="images/instagram_icon_128.png" alt="" class="thumbnail"/></a></p>
+        <p class="social_icon"><a href="https://www.youtube.com" target="_blank"><img src="images/youtube_icon_128.png" alt="" class="thumbnail"/></a></p>
+        <!-- https://www.iconfinder.com/iconsets/black-white-social-media -->
+    </section>
+
+    
+<!-- footer section -->
+    <footer class="footer">
+        <div class="copyright">
+            Peak Fitness • 5790 Crowder Blvd, New Orleans, LA 70127<br/> Contact Us at <a class="footer_links" href="mailto:info@peakfitness.com">info@peakfitness.com</a> or <a class="footer_links" href="tel:1-999-123-4567">(999) 123-4567</a><br/> &copy;2017 peak fitness - all rights reserved<br/>
+            <script language="Javascript">document.write("last modified: " + document.lastModified +"");</SCRIPT>
+            - Design by <a class="footer_links" href="http://wcet2.waketech.edu/cagaglioti/WEB140/CG/index.html" target="_blank">CG</a></div>
+    </footer>
+
+</body>
+
+</html>
